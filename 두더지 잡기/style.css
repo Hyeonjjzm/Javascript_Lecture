@@ -1,0 +1,18 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    width: 400px;
+    height: 400px;
+}
+
+.square{
+    border: solid black 1px;
+    height: 100px;
+    width: 100px;
+}
+/* 추가 */
+.mole {
+    background-image: url("./img/e다다다.jpg");
+    background-size: cover;
+}
